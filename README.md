@@ -1,5 +1,7 @@
 #Wordpress HTML5 Boilerplated Blank Theme
 
+![HTML5 Wordpress Boilerplate](https://github.com/daylerees/wordpress-html5-boilerplated/raw/master/screenshot.png)
+
 ##Installation
 
 Deploy to your wordpress themes folder, usually located at
