@@ -8,6 +8,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
         <title><?php echo bloginfo('name'); ?></title>
+
+        <!-- don't forget to add something to these meta elements! -->
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
