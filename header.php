@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title></title>
+        <title><?php echo bloginfo('name'); ?></title>
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +18,8 @@
 
         <script src="<?php echo bloginfo('template_url'); ?>/js/libs/modernizr-2.0.min.js"></script>
         <script src="<?php echo bloginfo('template_url'); ?>/js/libs/respond.min.js"></script>
+
+        <?php wp_head(); ?>
 </head>
 
 <body>

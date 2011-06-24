@@ -10,6 +10,7 @@
         <script src="<?php echo bloginfo('template_url'); ?>/js/plugins.js"></script>
         <script src="<?php echo bloginfo('template_url'); ?>/js/script.js"></script>
 
+        <!-- remember to replace UA-XXXXX-X with your own Google Analytics code -->
         <script>
         var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
@@ -22,5 +23,7 @@
         <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
         <![endif]-->
 
+
+        <?php wp_footer(); ?>
 </body>
 </html>
